@@ -247,7 +247,7 @@ const rules: KarabinerRules[] = [
       },
       // Scroll mode via homerow.app
       s: {
-        to: [{ key_code: "j", modifiers: ["right_control"] }],
+        to: [{ key_code: "j", modifiers: ["left_command", "left_option", "left_shift"] }],
       },
       d: {
         to: [{ key_code: "d", modifiers: ["right_shift", "right_command"] }],
@@ -275,7 +275,7 @@ const rules: KarabinerRules[] = [
 
     // r = "Raycast"
     r: {
-      c: open("raycast://extensions/thomas/color-picker/pick-color"),
+      // c: open("raycast://extensions/thomas/color-picker/pick-color"),
       // n: open("raycast://script-commands/dismiss-notifications"),
       // l: open(
       //   "raycast://extensions/stellate/mxstbr-commands/create-mxs-is-shortlink"
@@ -285,7 +285,7 @@ const rules: KarabinerRules[] = [
       ),
       p: open("raycast://extensions/raycast/raycast/confetti"),
       // a: open("raycast://extensions/raycast/raycast-ai/ai-chat"),
-      s: open("raycast://extensions/peduarte/silent-mention/index"),
+      // s: open("raycast://extensions/peduarte/silent-mention/index"),
       h: open(
         "raycast://extensions/raycast/clipboard-history/clipboard-history"
       ),
